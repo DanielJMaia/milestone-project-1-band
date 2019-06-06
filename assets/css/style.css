@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100, 200, 300, 400, 500, 600, 700|Exo:100,200,300, 400, 500, 600, 700|Merriweather:100,200,300,400,500,600,700&display=swap');
+
+/*------------------------------------------ Colours */
+
+/*------------------------------------------ Special paddings/margins/text/overlays */
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*------------------------------------------ Navbar */
+
+.navbar-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.nav-link {
+    color: rgb(167, 167, 167);
+    font-family: "Merriweather", serif;
+}
+
+.active {
+    font-weight: 200;
+    color: rgb(167, 167, 167);
+}
+
+/*------------------------------------------ Hover.css */
+
+/*------------------------------------------ Footer */
+
+/*------------------------------------------ Home Page */
+
+.home-container {
+    height: 100vh;
+
+    background: url(/assets/images/acdc_cover.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-row {
+    position: relative;
+}
+
+
+/*------------------------------------------ Music Videos */
+
+.music-container {
+    align-items: center;
+    justify-content: center;
+    background: url(/assets/images/videos_wallpaper.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.mainvideocontainer {
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 840px;
+    width: auto;
+}
+
+.largevideo {}
+
+.smallvideocontainer {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.smallvideo {}
+
+/*------------------------------------------ Albums and Songs */
+
+.album-container {}
+
+/*------------------------------------------ About Us */
+
+.about-container {}
+
+/*------------------------------------------ Scedule & Contact form */
+
+.schedule-container {}
+
+/*------------------------------------------ Social Media */
+
+.social-container {}
+
+/*------------------------------------------ Media Queries */
+
+/*------------------------------------------ Buttons  */
+
+.btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40/* Doesn't work, not sure why I wasn't able to overide the bootstrap inherit properties for font color.*/
+}
+
+.btn--cta {
+    /*Call to action button*/
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+}
