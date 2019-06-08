@@ -90,18 +90,60 @@
     width: auto;
 }
 
-.largevideo {}
-
-.smallvideocontainer {
-    padding-top: 50px;
-    padding-bottom: 100px;
+.largevideo {
+    
 }
 
-.smallvideo {}
+.smallvideocontainer {
+    align-items: center;
+    justify-content: center;
+    padding :75px;
+}
+
+.smallvideo {
+    padding: 50px;
+}
 
 /*------------------------------------------ Albums and Songs */
 
-.album-container {}
+.album-container {
+    height: 100vh;
+    background: url(/assets/images/live_albums.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.albumlist {
+  height: 800px;
+}
+
+.singlealbum {
+}
+
+.albumrow {
+    padding: 50px;
+}
+
+.songlist {
+    
+}
+
+.songrow {
+    padding-left: 50px;
+}
+.songrow h1 {
+    height: 0px;
+}
+
+.singlesong {
+    
+}
 
 /*------------------------------------------ About Us */
 
