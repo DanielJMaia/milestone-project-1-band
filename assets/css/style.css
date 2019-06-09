@@ -90,14 +90,12 @@
     width: auto;
 }
 
-.largevideo {
-    
-}
+.largevideo {}
 
 .smallvideocontainer {
     align-items: center;
     justify-content: center;
-    padding :75px;
+    padding: 75px;
 }
 
 .smallvideo {
@@ -107,7 +105,8 @@
 /*------------------------------------------ Albums and Songs */
 
 .album-container {
-    height: 100vh;
+    padding-top: 25px;
+    height: auto;
     background: url(/assets/images/live_albums.jpg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -119,35 +118,73 @@
     justify-content: center;
 }
 
-.albumlist {
-  height: 800px;
+.album-container h1 {
+    color: #ddd;
+    font-family: "Exo" sans-serif;
+    font-weight: 400;
 }
 
-.singlealbum {
+.albumlist {
+    height: 800px;
+}
+
+.albumimg {
+    padding: 15px;
 }
 
 .albumrow {
     padding: 50px;
 }
 
-.songlist {
-    
-}
+.songlist {}
 
 .songrow {
     padding-left: 50px;
 }
+
 .songrow h1 {
     height: 0px;
 }
 
-.singlesong {
-    
-}
+.singlesong {}
 
 /*------------------------------------------ About Us */
 
-.about-container {}
+.about-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    background: url(/assets/images/brick_wallpaper.jpg);
+    
+}
+
+
+.about-row {
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+    color: #ddd;
+    font-family: "Exo" sans-serif;
+    font-weight: 400;
+}
+
+.about-us-items {
+    margin: 50px;
+}
+
+.about-beginnings {}
+
+.about-breakthrough {}
+
+.about-current {}
+
+.carouselimg img {
+    max-width: 100%;
+}
+
 
 /*------------------------------------------ Scedule & Contact form */
 
