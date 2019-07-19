@@ -53,7 +53,7 @@
 .home-container {
     height: 100vh;
 
-    background: url(/assets/images/acdc_cover.jpg) no-repeat bottom right fixed;
+    background: url("../../assets/images/acdc_cover.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -71,10 +71,16 @@
 
 /*------------------------------------------ Music Videos */
 
+.main-row {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+}
+
 .music-container {
     align-items: center;
     justify-content: center;
-    background: url(/assets/images/videos_wallpaper.jpg);
+    background: url(../../assets/images/videos_wallpaper.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -82,7 +88,11 @@
     position: relative;
 }
 
-.mainvideocontainer {
+.embed-responsive-item {
+    padding: 50px;
+}
+
+.mainrow {
     padding-top: 150px;
     padding-left: 50px;
     padding-right: 50px;
@@ -90,24 +100,27 @@
     width: auto;
 }
 
-.largevideo {}
-
 .smallvideocontainer {
     align-items: center;
     justify-content: center;
-    padding: 75px;
+    padding: 25px;
 }
 
 .smallvideo {
-    padding: 50px;
+    padding: 25px;
 }
+
+.frame-border {
+    border: 3px solid #EEE;
+}
+
 
 /*------------------------------------------ Albums and Songs */
 
 .album-container {
     padding-top: 25px;
     height: auto;
-    background: url(/assets/images/live_albums.jpg) no-repeat bottom right fixed;
+    background: url(../../assets/images/live_albums.jpg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -125,25 +138,31 @@
 }
 
 .albumlist {
-    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .albumimg {
-    padding: 15px;
+    padding: 5px;
 }
 
 .albumrow {
-    padding: 50px;
+    padding: 15px;
 }
 
-.songlist {}
+.songlist {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .songrow {
     padding-left: 50px;
 }
 
 .songrow h1 {
-    height: 0px;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .singlesong {}
@@ -154,13 +173,12 @@
     padding-top: 50px;
     padding-bottom: 50px;
     display: block;
-    background: url(/assets/images/brick_wallpaper.jpg);
-    
+    background: url(../../assets/images/brick_wallpaper.jpg);
+
 }
 
 
-.about-row {
-}
+.about-row {}
 
 .section-column {
     display: table-cell;
@@ -183,12 +201,54 @@
 
 .carouselimg img {
     max-width: 100%;
+    padding-right: 50px;
 }
 
 
 /*------------------------------------------ Scedule & Contact form */
 
-.schedule-container {}
+.schedule-container {
+    background-image: linear-gradient(black, white);
+}
+
+.history-items {
+    margin: 50px;
+    background-color: white;
+}
+
+.timeline-item {
+    padding: 3.5em 1em 2em 2em;
+    position: relative;
+    color: black;
+    border-bottom: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
 
 /*------------------------------------------ Social Media */
 
