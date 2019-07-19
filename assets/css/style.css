@@ -53,7 +53,7 @@
 .home-container {
     height: 100vh;
 
-    background: url("../../assets/images/acdc_cover.jpg") no-repeat bottom right fixed;
+    /*--- background-image: url("../../assets/images/acdc_cover.jpg") no-repeat bottom right fixed; ---*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -291,3 +291,4 @@
 
 
 /*------------------------------------------ Book.html specific CSS  */
+
