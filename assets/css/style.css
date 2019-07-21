@@ -158,6 +158,8 @@
 .songlist {
     margin-left: auto;
     margin-right: auto;
+    padding: inherit;
+    
 }
 
 .songrow {
@@ -208,7 +210,6 @@
 
 .carouselimg img {
     max-width: 100%;
-    padding-right: 50px;
 }
 
 
@@ -310,5 +311,21 @@
 @media(min-width: 1500px) {
     .albumimg {
         padding: 0px;
+    }
+    
+    .songrow {
+    height: 100%;
+    width: auto;
+    padding-bottom: 50px;
+}
+
+ .carouselimg img{
+        padding-right: 50px;
+    }
+}
+
+@media(min-width: 500px) {
+    .carouselimg img{
+        padding-right: 0px;
     }
 }
