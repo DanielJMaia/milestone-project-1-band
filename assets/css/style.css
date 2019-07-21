@@ -140,6 +140,7 @@
     color: #ddd;
     font-family: "Exo" sans-serif;
     font-weight: 400;
+    padding: 30px;
 }
 
 .albumlist {
@@ -173,26 +174,30 @@
     margin-left: auto;
 }
 
-audio
-{
--webkit-transition:all 0.5s linear;
--moz-transition:all 0.5s linear;
--o-transition:all 0.5s linear;
-transition:all 0.5s linear;
--moz-border-radius:7px 7px 7px 7px ;
--webkit-border-radius:7px 7px 7px 7px ;
-border-radius:7px 7px 7px 7px ;
-width: 100%;
+.singlesong {
+    width: 100%
 }
 
-audio:hover, audio:focus, audio:active
-{
--webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
--moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
--webkit-transform: scale(1.05);
--moz-transform: scale(1.05);
-transform: scale(1.05);
+audio {
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    border-radius: 7px 7px 7px 7px;
+    width: 100%;
+}
+
+audio:hover,
+audio:focus,
+audio:active {
+    -webkit-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 /*------------------------------------------ About Us */
@@ -283,13 +288,13 @@ transform: scale(1.05);
 
 /*------------------------------------------ Social Media */
 
-.social-container{
+.social-container {
     padding-top: 25px;
 }
 
 .facebookpst {
-    border:none;
-    overflow:hidden
+    border: none;
+    overflow: hidden
 }
 
 /*------------------------------------------ Media Queries */
@@ -347,9 +352,7 @@ transform: scale(1.05);
 
 
 
-@media(min-width: 1024px) {
-  
-}
+@media(min-width: 1024px) {}
 
 
 
@@ -368,5 +371,3 @@ transform: scale(1.05);
         padding-right: 50px;
     }
 }
-
-
