@@ -57,6 +57,8 @@
     -o-background-size: cover;
     background-size: cover;
     height: auto;
+    color: #fafafa;
+    border-bottom: 1px solid;
 }
 
 .order-row {
@@ -81,6 +83,10 @@
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+    padding: 4em 2em 0em 2em;
+    color: #fafafa;
+    border-bottom: 1px solid;
+
 }
 
 .embed-responsive-item {
@@ -124,6 +130,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    color: #fafafa;
+    border-bottom: 1px solid;
+    
 }
 
 .album-container h1 {
@@ -138,7 +148,7 @@
 }
 
 .albumimg {
-    padding: 5px;
+    padding: 25px;
 }
 
 .albumrow {
@@ -169,6 +179,8 @@
     padding-bottom: 50px;
     display: block;
     background: url(../../assets/images/brick_wallpaper.jpg);
+    color: #fafafa;
+    border-bottom: 1px solid;
 
 }
 
@@ -204,6 +216,8 @@
 
 .schedule-container {
     background-image: linear-gradient(black, white);
+    color: #fafafa;
+    border-bottom: 1px solid;
 }
 
 .history-items {
@@ -289,4 +303,12 @@
 
 .carouselrow {
     display: block;
+}
+
+/*------------------------------------------ Media Queries */
+
+@media(min-width: 1500px) {
+    .albumimg {
+        padding: 0px;
+    }
 }
