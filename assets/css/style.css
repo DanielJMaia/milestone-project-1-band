@@ -51,17 +51,12 @@
 /*------------------------------------------ Home Page */
 
 .home-container {
-    height: 100vh;
-
-    /*--- background-image: url("../../assets/images/acdc_cover.jpg") no-repeat bottom right fixed; ---*/
+    /*--- background-image: url("../../assets/images/carousel1.jpg") no-repeat bottom right fixed; ---*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: auto;
 }
 
 .order-row {
@@ -292,3 +287,6 @@
 
 /*------------------------------------------ Book.html specific CSS  */
 
+.carouselrow {
+    display: block;
+}
