@@ -34,6 +34,10 @@
     background-color: rgba(0, 0, 0, 1);
 }
 
+.navbar-nav {
+    margin: auto;
+}
+
 .nav-link {
     color: rgb(167, 167, 167);
     font-family: "Merriweather", serif;
