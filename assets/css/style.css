@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100, 200, 300, 400, 500, 600, 700|Exo:100,200,300, 400, 500, 600, 700|Merriweather:100,200,300,400,500,600,700&display=swap');
 
 /*------------------------------------------ Colours */
+h1 {
+    color: rgba(255,255,255,.5);
+}
+
 
 /*------------------------------------------ Special paddings/margins/text/overlays */
 
@@ -293,7 +297,7 @@ audio:active {
 .shop-container {
     padding-top: 25px;
     height: auto;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/live_albums.jpg) no-repeat bottom right fixed;
+    background-image: linear-gradient(#181818, #484848);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -306,6 +310,10 @@ audio:active {
     color: #fafafa;
     border-bottom: 1px solid;
 
+}
+
+.carouselshop img {
+    margin: auto;
 }
 
 
@@ -380,7 +388,7 @@ audio:active {
 
 @media(min-width: 1024px) {}
 
-.shopalbum {
+.shopitem {
     padding: 15px;
 }
 
@@ -404,7 +412,7 @@ audio:active {
 
 @media(min-width: 1700px) {
 
-    .shopalbum {
+    .shopitem {
         padding: 35px;
     }
 }
