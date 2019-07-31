@@ -3,7 +3,13 @@
 /*------------------------------------------ Colours */
 h1 {
     color: rgba(255,255,255,.5);
+    font-family: "Merriweather", serif;
 }
+h2 {
+    color: rgba(255,255,255,.5);
+    font-family: "Merriweather", serif;
+}
+
 
 
 /*------------------------------------------ Special paddings/margins/text/overlays */
@@ -158,7 +164,7 @@ h1 {
 .albumimg {
     margin-left: 5px;
     margin-right: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 25px;
 }
 
 .albumrow {
@@ -230,11 +236,13 @@ audio:active {
     margin: 50px;
 }
 
-.about-beginnings {}
+.about-title h1 {
+    color: #fafafa;
+}
 
-.about-breakthrough {}
-
-.about-current {}
+.about-us-items h2 {
+    color: #fafafa;
+}
 
 .carouselimg img {
     max-width: 100%;
