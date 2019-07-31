@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100, 200, 300, 400, 500, 600, 700|Exo:100,200,300, 400, 500, 600, 700|Merriweather:100,200,300,400,500,600,700&display=swap');
 
 /*------------------------------------------ Colours */
+
 h1 {
-    color: rgba(255,255,255,.5);
+    color: rgba(255, 255, 255, .5);
     font-family: "Merriweather", serif;
 }
+
 h2 {
-    color: rgba(255,255,255,.5);
+    color: rgba(255, 255, 255, .5);
     font-family: "Merriweather", serif;
 }
 
@@ -153,7 +155,7 @@ h2 {
     color: #ddd;
     font-family: "Exo" sans-serif;
     font-weight: 400;
-    padding: 30px;
+    padding: 5px;
 }
 
 .albumlist {
@@ -233,7 +235,8 @@ audio:active {
 }
 
 .about-us-items {
-    margin: 50px;
+    margin: 0px;
+    
 }
 
 .about-title h1 {
@@ -255,10 +258,11 @@ audio:active {
     background-image: linear-gradient(black, white);
     color: #fafafa;
     border-bottom: 1px solid;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .history-items {
-    margin: 50px;
     background-color: white;
 }
 
@@ -379,6 +383,12 @@ audio:active {
 
 /*------------------------------------------ Media Queries */
 
+@media(min-width: 360px) {
+    .about-title h1 {
+        margin-bottom: 25px;
+    }
+}
+
 @media(min-width: 500px) {
     .carouselimg img {
         padding-right: 0px;
@@ -386,8 +396,23 @@ audio:active {
     .songrow h1 {
         padding: 30px;
     }
+    .album-container h1 {
+        color: #ddd;
+        font-family: "Exo" sans-serif;
+        font-weight: 400;
+        padding: 30px;
+    }
+    .history-items {
+        margin: 50px;
+        background-color: white;
+    }
+    .about-us-items {
+        margin: 50px;
+    }
+    .about-title h1 {
+        margin-bottom: 0px;
+    }
 }
-
 
 
 @media(min-width: 1024px) {}
