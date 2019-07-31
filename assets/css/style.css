@@ -236,7 +236,7 @@ audio:active {
 
 .about-us-items {
     margin: 0px;
-    
+
 }
 
 .about-title h1 {
@@ -411,6 +411,9 @@ audio:active {
     }
     .about-title h1 {
         margin-bottom: 0px;
+    }
+    .schedule-book {
+        float: right!important;
     }
 }
 
