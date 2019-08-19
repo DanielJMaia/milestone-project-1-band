@@ -1,11 +1,13 @@
 # README.md
 
 ## AC/DC Website
+
 My project is a website for the popular rock bank, AC/DC. The website was created so that both existing fans and people discovering the band for the first time have easy access to their popular music videos, a list of their popular albums and songs, tour dates, information about the band and their latest social media posts. 
 
 The website was designed so that both people who are familiar with the band and newcomers find it useful and interesting to browse. The main page that a user first sees shows a slideshow with some iconic moments in the bands history, notably their live shows. Since the website is a single page the user then has the choice to begin scrolling through the website, or they can click a section they're interested in on the navigation bar at the top of the page. If the user decides to scroll through the website they are first presented with 5 mmusic videos. This is very important because it allows someone discovering the band to very easily and quickly discover some of their music and see if they'd be interested in the band. Once they scroll past that section they are shown several of the band's main albums, along with a list of their top songs. This further allows someone to discover their music but also allows someone who is familiar with AC/DC to simply listen to their favourite songs. These keep playing as the user browses the website. Avoding autoplaying music was important to limit ruining the user experience. If the user is interested in the music that they hear they can scroll a little further and read about the band. This is a very short section which is followed by their latest tour dates, with links to buying a ticket to a specific show. Finally, the user is shown several social media posts. A social media presence is important in this day and age and this reassures the user that the band has an active social media presence. 
 
 ## UX
+
 This website is both for fans of the band looking to listen to some music and book tickets, and people who've head about them and are interested in learning about the band and discovering some of their greatest hits. The website also provides links to their social media pages if the user is interested in following them on their platform of choice. 
 - A newcomer wants to watch a music video to their most popular songs. They go on the home page and click the "videos" tab, or scolls down a single section. 
 - A newcomer wants to listen to their music and plays it in the background while reading about the band by playinig it in the "music" section.
@@ -14,6 +16,7 @@ This website is both for fans of the band looking to listen to some music and bo
 
 ### Mockups
 
+Please find attached the original idea for the look of the website. 
 
 Insert stuff here
 
@@ -43,13 +46,33 @@ Insert stuff here
 ## Technologies Used
 
 ### HTML
+
 This was used to create the markup. 
 
 ### CSS
+
 This was used to style the webpage. Bootstrap was the mobile-first framework that enabled the website to be responsive using the grid layout. https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
 
 ### Validators
+
 When the website being developed the both the HTML and CSS was validated using the W3 validation service (https://validator.w3.org/)
+
+## Testing
+
+### Problems Encountered
+
+### Mobile First Approach
+
+## Deployment 
+To deploy my project I pushed my AWS Environment to my Github repository named milestone-project-1-band via the command line. I did this every time I changed something in my code, although to begin with I didn't do it as often as I should have resulting in poor version documentation. I have since learned the importance of pushing all changed to GitHub no matter how insignificant. Please find my [GitHub here](https://github.com/DanielJMaia/milestone-project-1-band).
+
+## Credits
+
+### Content
+
+### Media Locations
+
+### Acknowledgements and Thanks
 
 
 
