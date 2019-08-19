@@ -16,9 +16,8 @@ This website is both for fans of the band looking to listen to some music and bo
 
 ### Mockups
 
-Please find attached the original idea for the look of the website. 
+Here is the link to the original idea for the look of the website (https://github.com/DanielJMaia/milestone-project-1-band/blob/master/assets/Mockups/Starting%20Ideas.png) Done in microsoft paint. Vast improvements needed in the future. 
 
-Insert stuff here
 
 ## Features
 
