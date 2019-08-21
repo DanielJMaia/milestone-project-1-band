@@ -40,7 +40,7 @@ Here is the link to the original idea for the look of the website (https://githu
 - Similar scrolling when using the navigation button to go back to the very top of the page.
 - More in-depth forms for booking tickets, and additional pages for each album. Pop up notification to confirm tickets have been booked. 
 - Additional JavaScript to make the website feel more professional such as improved slideshow, animations as the user scrolls through the page.
-- 
+- Each album should link to the spotify page for that album when clicked. 
 
 ## Technologies Used
 
@@ -58,9 +58,34 @@ When the website being developed the both the HTML and CSS was validated using t
 
 ## Testing
 
-### Problems Encountered
+The pages were at the various screen sizes available in Chrome Dev Tools.
+
+### index.html
+
+- Click all the links on the navigation menu to ensure that they work regardless of screen size, including the up arrow in the bottom right.
+- Ensure the slideshow works in all browsers.
+- Ensure that the music videos play even on a very slow computer by using chrome dev tools to throttle performance. 
+- Accessed website on Firefox, Chrome and Edge.
+- Ensured all the songs are working.
+- Ensured all the "book now" buttons in the schedule section linked to the appropriate pages.
+- Clicked on all the social media posts to make sure the embeds were working correctly. Repeaped once again for the youtube videos too.
+
+### shop.html
+
+- Made sure carousel works correctly.
+
+### Problems Encountered & Self Reflection
+
+- Initially I used several custom containers and redundant CSS classes which ended up clashing with the bootstrap. As my project grew I ended up removing large amounts of CSS. This was due to not having the correct mobile-first mindset when approaching the project. I have since learnt the importanece of the mobile first approach from the very beginning. 
+- The carousel at the beginning wasn't working correctly and required some knowledge of JQuery to fix. I instead chose a very simple bootstrap carousel without controls. From then on I always looked at the bootstrap framework to see if they provided classes for what I needed before trying to create them myself.
+- Youtube embeds were very difficult to resize, and I ended up having to push them apart manually with CSS right and left properties to get them to have nice spacing on screens above a certain size. Changing padding and margins ended up resizing the videos very strangely. 
+- Social media posts don't look as nice as they could, with each embed having different sizing properies. In the future I will most likely link to the social media page instead of trying to display elements from it on my website. 
+- 
 
 ### Mobile First Approach
+
+Each page was tested using chrome dev tools. The device presets used were iPad Pro, iPad, iPhoneX, iPhone 6/7/8 + Plus equivalent. Pixel 2 XL, Pixel 2 and Samsung S5.
+
 
 ## Deployment 
 To deploy my project I pushed my AWS Environment to my Github repository named milestone-project-1-band via the command line. I did this every time I changed something in my code, although to begin with I didn't do it as often as I should have resulting in poor version documentation. I have since learned the importance of pushing all changed to GitHub no matter how insignificant. Please find my [GitHub here](https://github.com/DanielJMaia/milestone-project-1-band).
