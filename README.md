@@ -80,7 +80,7 @@ The pages were at the various screen sizes available in Chrome Dev Tools.
 - The carousel at the beginning wasn't working correctly and required some knowledge of JQuery to fix. I instead chose a very simple bootstrap carousel without controls. From then on I always looked at the bootstrap framework to see if they provided classes for what I needed before trying to create them myself.
 - Youtube embeds were very difficult to resize, and I ended up having to push them apart manually with CSS right and left properties to get them to have nice spacing on screens above a certain size. Changing padding and margins ended up resizing the videos very strangely. 
 - Social media posts don't look as nice as they could, with each embed having different sizing properies. In the future I will most likely link to the social media page instead of trying to display elements from it on my website. 
-- 
+- I could have added a contact-us page as practice even though it wouldn't really make sense for a band like AC/DC. 
 
 ### Mobile First Approach
 
@@ -88,6 +88,7 @@ Each page was tested using chrome dev tools. The device presets used were iPad P
 
 
 ## Deployment 
+
 To deploy my project I pushed my AWS Environment to my Github repository named milestone-project-1-band via the command line. I did this every time I changed something in my code, although to begin with I didn't do it as often as I should have resulting in poor version documentation. I have since learned the importance of pushing all changed to GitHub no matter how insignificant. Please find my [GitHub here](https://github.com/DanielJMaia/milestone-project-1-band).
 
 ## Credits
@@ -98,7 +99,8 @@ To deploy my project I pushed my AWS Environment to my Github repository named m
 
 ### Acknowledgements and Thanks
 
-
+- Thank you to my tutor, Antonija Simic, for their help guiding me along the right path and sending me several extremely useful links regarding embeds, mobile first approach, padding vs margins and pixels vs rems vs %. These were all areas I was unsure in when beginning my project.
+- Thank you to Neil Kavanagh for sending me emails and making sure I was getting along with the course even when I had to take a significant break due to personal reasons. I greatly appreciated their patience. 
 
 
 PERSONAL NOTES
