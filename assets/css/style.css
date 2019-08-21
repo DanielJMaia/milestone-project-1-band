@@ -339,47 +339,17 @@ audio:active {
 
 /*------------------------------------------ Social Media */
 
-.social-container {
+.social-media {
     padding-top: 25px;
-}
+    height: auto;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(71, 71, 71));
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
-.facebookpst {
-    border: none;
-    overflow: hidden
-}
-
-
-/*------------------------------------------ Buttons  */
-
-.btn {
-    background-color: white;
-    border-color: white;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #f05f40/* Doesn't work, not sure why I wasn't able to overide the bootstrap inherit properties for font color.*/
-}
-
-.btn--cta {
-    /*Call to action button*/
-    font-weight: bold;
-    border-radius: 23px;
-    width: 160px;
-}
-
-.btn--red {
-    color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
-}
-
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
+    color: #fafafa;
+    border-bottom: 1px solid;
 }
 
 
@@ -428,21 +398,21 @@ audio:active {
 
 
 @media(min-width: 750px) {
-   
+
     .smallvideo {
-    margin-top: 15px;
+        margin-top: 15px;
     }
 
-    
+
 }
 
 
 
 @media(min-width: 1024px) {
 
-.shopitem {
-    padding: 15px;
-}
+    .shopitem {
+        padding: 15px;
+    }
 }
 
 @media(min-width: 1500px) {
@@ -459,12 +429,9 @@ audio:active {
     .carouselimg img {
         padding-right: 50px;
     }
-
-
 }
 
 @media(min-width: 1700px) {
-
     .shopitem {
         padding: 35px;
     }
