@@ -108,8 +108,11 @@ body {
 }
 
 .embed-responsive {
+    width: 100%;
+    display: block;
     padding-bottom: 20px;
 }
+
 
 .music-container {
     align-items: center;
@@ -265,9 +268,10 @@ audio:active {
 .schedule-container {
     background-image: linear-gradient(black, white);
     color: #fafafa;
-    border-bottom: 1px solid;
+    border-bottom: 0.5px solid;
     padding-right: 0px;
     padding-left: 0px;
+    border-color: black;
 }
 
 .history-items {
@@ -352,6 +356,9 @@ audio:active {
     border-bottom: 1px solid;
 }
 
+.social-header {
+    color: #343a40;
+}
 
 /*------------------------------------------ Book.html specific CSS  */
 
@@ -404,6 +411,7 @@ audio:active {
     }
 
 
+
 }
 
 
@@ -413,6 +421,18 @@ audio:active {
     .shopitem {
         padding: 15px;
     }
+    .smallvideo {
+        max-width: 80%;
+        margin-top: 15px;
+    }
+
+    .videoright {
+        right: 15px;
+    }
+    .videoleft {
+        left: 15px;
+    }
+
 }
 
 @media(min-width: 1500px) {
