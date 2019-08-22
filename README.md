@@ -61,7 +61,7 @@ When the website being developed the both the HTML and CSS was validated using t
 
 ## Testing
 
-The pages were at the various screen sizes available in Chrome Dev Tools.
+The pages were at the various screen sizes available in Chrome Dev Tools. A html page called testing was used to test out different things in an isolated enviromnemt before adding them to the final project. 
 
 ### index.html
 
@@ -72,6 +72,7 @@ The pages were at the various screen sizes available in Chrome Dev Tools.
 - Ensured all the songs are working.
 - Ensured all the "book now" buttons in the schedule section linked to the appropriate pages.
 - Clicked on all the social media posts to make sure the embeds were working correctly. Repeaped once again for the youtube videos too.
+- Accessed the correct spotify page by clicking on the albums, tested that the songs played when clicked despite being placeholder songs. 
 
 ### shop.html
 
@@ -86,6 +87,7 @@ The pages were at the various screen sizes available in Chrome Dev Tools.
 - Social media posts don't look as nice as they could, with each embed having different sizing properies. In the future I will most likely link to the social media page instead of trying to display elements from it on my website. 
 - I could have added a contact-us page as practice even though it wouldn't really make sense for a band like AC/DC. 
 - The conscious decision to not include a footer might make the website unprofessional, but I didn't see any additional value brought by including it. The next website I create will be designed with the idea of adding a footer with important information such as copyright information and social media links.
+
 ### Mobile First Approach
 
 Each page was tested using chrome dev tools. The device presets used were iPad Pro, iPad, iPhoneX, iPhone 6/7/8 + Plus equivalent. Pixel 2 XL, Pixel 2 and Samsung S5.
@@ -93,16 +95,32 @@ Each page was tested using chrome dev tools. The device presets used were iPad P
 
 ## Deployment 
 
-To deploy my project I pushed my AWS Environment to my Github repository named milestone-project-1-band via the command line. I did this every time I changed something in my code, although to begin with I didn't do it as often as I should have resulting in poor version documentation. I have since learned the importance of pushing all changed to GitHub no matter how insignificant. Please find my GitHub [here](https://github.com/DanielJMaia/milestone-project-1-band).
+To deploy my project I pushed my AWS Environment to my Github repository named milestone-project-1-band via the command line. I did this every time I changed something in my code, although to begin with I didn't do it as often as I should have resulting in poor version documentation. I have since learned the importance of pushing all changed to GitHub no matter how insignificant. Please find my GitHub [here](https://github.com/DanielJMaia/milestone-project-1-band). The GitHub page was built from a master branch. 
 
 ## Credits
 
 ### Content
 
 - About us section taken from their [Wikipedia Page](https://en.wikipedia.org/wiki/AC/DC)
-- 
+- Tour dates were made up for the purpose of this website.  
+ 
 
 ### Media Locations
+
+- index.html Carousel image 1 found [here](https://www.google.com/search?q=ac+dc+2018+stage&tbm=isch&tbs=simg:CAQSkwEJrjl8kpDaTNsahwELEKjU2AQaAAwLELCMpwgaYgpgCAMSKLYM6QGXBbUM0A7RDosMzA7sAagZhDTELYUpxi2HJNUtxy2YNIk01i0aMIQ27Z3SSCtna70EJ5x9flE9mxwwmQYC5RJPRx5FaIQhQMZBFxGmw3BpzywKPVYVAiAEDAsQjq7-CBoKCggIARIEHJI9KQw&sa=X&ved=0ahUKEwjj8MLX4ZbkAhWExYUKHcRDAM0Qwg4ILigA&biw=1536&bih=722&dpr=1.25)
+- index.html Carousel image 2 found [here](https://www.google.com/search?q=rock+na+montanha+2019&tbm=isch&tbs=simg:CAQSkwEJxtb5BBaPAtMahwELEKjU2AQaAAwLELCMpwgaYgpgCAMSKKgZzQ6LDLYMzg6WBPQW5xXKDssOxy2gOsQtnzrGLYck8C3JLe8twy0aMDEkdob0RHq2UywFWWke2WLPfSxOo7YdsoLw9zDgVQEl-IznTmpqFDzwr2tg6cf-GyAEDAsQjq7-CBoKCggIARIEX0CxUgw&sa=X&ved=0ahUKEwieifbl4ZbkAhUS1RoKHbOuDYkQwg4ILigA&biw=1536&bih=722&dpr=1.25#imgrc=BV2n9Mu1zXqlZM:)
+- index.html Carousel image 3 found [here](https://www.google.com/search?q=angus+young+on+stage&tbm=isch&tbs=simg:CAQSkwEJR4lmw9bTmqEahwELEKjU2AQaAAwLELCMpwgaYgpgCAMSKPIEzA62DJcFyg6LDM0OngX2AaEE3ijKLcst6Tm3IKo3vjeJNOg5pzcaMKaAcRejcFG3qALuk3Uo2IynSDCNpLLfKKI3RlMl9SkrQSxsKBA6VHdFyOzYJn2pgyAEDAsQjq7-CBoKCggIARIE691zyAw&sa=X&ved=0ahUKEwiNlLic4pbkAhWr4YUKHZhZB6sQwg4ILigA&biw=1536&bih=722&dpr=1.25#imgrc=0sQi1EhDZfrcqM:)
+- Album art for Highway to Hell found [here](https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Acdc_Highway_to_Hell.JPG/220px-Acdc_Highway_to_Hell.JPG)
+- Album art for Black Ice found [here](https://upload.wikimedia.org/wikipedia/en/3/3e/Black_ice_red.jpg)
+- Album art for Back in Black found [here](https://i.pinimg.com/originals/06/86/60/068660474366a63e1263e53ff370eb50.jpg)
+- Album art for Ballbreaker found [here](https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Ballbreaker.jpg/220px-Ballbreaker.jpg)
+- Album art for Let There be Rock found [here](https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/ACDC-LetThereBeRock.jpg/220px-ACDC-LetThereBeRock.jpg)
+- Album art for The Razors Edge found [here](https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/Razorsedge.jpg/220px-Razorsedge.jpg)
+- Album art for For Those About To Rock [here](https://cdn3.volusion.com/mtwqx.qqhhw/v/vspfiles/photos/RZ-LS097-2.jpg)
+- Album art for Stiff Upper Lip [here](https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Stiff_Upper_Lip.jpg/220px-Stiff_Upper_Lip.jpg)
+- About Us image found [here](https://www.sheknows.com/wp-content/uploads/2018/08/pao0hgj7tllaksjm81nd.jpeg)
+- Social media links - [Facebook](https://m.facebook.com/acdc/?ref=nf) [Instagram](https://www.instagram.com/acdc/?utm_source=ig_embed&ig_mid=W18mlAALAAHFt0dqbADU0NzMa8H0) [Twitter](https://twitter.com/acdc)
+
 
 ### Acknowledgements and Thanks
 
