@@ -3,7 +3,7 @@
 /*------------------------------------------ Colours */
 
 h1 {
-    color: rgba(255, 255, 255, .5);
+    color: #fafafa;
     font-family: "Merriweather", serif;
 }
 
@@ -256,10 +256,12 @@ audio:active {
 
 .about-us-items h2 {
     color: #fafafa;
+    text-align: center;
 }
 
 .carouselimg img {
     max-width: 100%;
+    padding-top: 0px;
 }
 
 
@@ -336,8 +338,8 @@ audio:active {
     margin: auto;
 }
 
-.price{
-    color: rgba(255, 255, 255, .5);
+.price {
+    color: #fafafa;
     text-decoration: none;
 }
 
@@ -381,6 +383,7 @@ audio:active {
 @media(min-width: 500px) {
     .carouselimg img {
         padding-right: 0px;
+       
     }
     .songrow h1 {
         padding: 30px;
@@ -404,6 +407,7 @@ audio:active {
     .schedule-book {
         float: right!important;
     }
+
 }
 
 
@@ -420,7 +424,7 @@ audio:active {
 
 
 
-@media(min-width: 1024px) {
+@media(min-width: 992px) {
 
     .shopitem {
         padding: 15px;
@@ -436,14 +440,18 @@ audio:active {
     .videoleft {
         left: 15px;
     }
+    .carouselimg img {
+        padding-right: 0px;
+    }
+    
 
 }
 
 
-@media(min-width: 1250px) {
+@media(min-width: 1200px) {
     .carouselimg img {
         padding-right: 50px;
-        padding-top: 100px;
+        padding-top: 200px;
     }
 }
 
@@ -460,12 +468,16 @@ audio:active {
     }
 
     .carouselimg img {
-        padding-right: 50px;
+        padding-right: 100px;
+        padding-top: 100px;
     }
 }
 
 @media(min-width: 1700px) {
     .shopitem {
         padding: 35px;
+    }
+    .carouselimg img {
+        padding-right: 100px;
     }
 }
