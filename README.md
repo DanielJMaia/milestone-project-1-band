@@ -10,13 +10,14 @@ The website was designed so that both people who are familiar with the band and 
 
 This website is both for fans of the band looking to listen to some music and book tickets, and people who've head about them and are interested in learning about the band and discovering some of their greatest hits. The website also provides links to their social media pages if the user is interested in following them on their platform of choice. 
 - A newcomer wants to watch a music video to their most popular songs. They go on the home page and click the "videos" tab, or scolls down a single section. 
-- A newcomer wants to listen to their music and plays it in the background while reading about the band by playinig it in the "music" section.
+- A newcomer wants to listen to their music and plays it in the background while reading about the band by playing it in the "music" section.
 - An existing fan wants to book a ticket to go see one of their shows live but isn't sure if they're going to be playing near them. They can check the "schedule" section on the website. 
-- 
+- A fan is interested in buying some cd's and want to make sure to support the band by buying them directly instead of going through spotify or amazon, they click the "shop" section. 
+- As a fan I want to see if they have a social media presence. I click the follow tab and am presented with the latest posts and links to their several social media pages.
 
 ### Mockups
 
-Here is the link to the original idea for the look of the website (https://github.com/DanielJMaia/milestone-project-1-band/blob/master/assets/Mockups/Starting%20Ideas.png) Done in microsoft paint. Vast improvements needed in the future. 
+[Here] (https://github.com/DanielJMaia/milestone-project-1-band/blob/master/assets/Mockups/Starting%20Ideas.png) is the link to the original idea for the look of the website  Done in microsoft paint. Vast improvements needed in the future. 
 
 
 ## Features
@@ -50,11 +51,11 @@ This was used to create the markup.
 
 ### CSS
 
-This was used to style the webpage. Bootstrap was the mobile-first framework that enabled the website to be responsive using the grid layout. https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
+This was used to style the webpage. [Bootstrap] (https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css) was the mobile-first framework that enabled the website to be responsive using the grid layout.
 
 ### Validators
 
-When the website being developed the both the HTML and CSS was validated using the W3 validation service (https://validator.w3.org/)
+When the website being developed the both the HTML and CSS was validated using the W3 "Jigsaw" [validation] (https://validator.w3.org/) 
 
 ## Testing
 
@@ -76,12 +77,13 @@ The pages were at the various screen sizes available in Chrome Dev Tools.
 
 ### Problems Encountered & Self Reflection
 
-- Initially I used several custom containers and redundant CSS classes which ended up clashing with the bootstrap. As my project grew I ended up removing large amounts of CSS. This was due to not having the correct mobile-first mindset when approaching the project. I have since learnt the importanece of the mobile first approach from the very beginning. 
+- Initially I used several custom containers and redundant CSS classes which ended up clashing with the bootstrap. As my project grew I ended up removing large amounts of CSS. This was due to not having the correct mobile-first mindset when approaching the project. I have since learnt the importanece of the mobile first approach from the very beginning, but there is most likely still some redundant CSS. 
 - The carousel at the beginning wasn't working correctly and required some knowledge of JQuery to fix. I instead chose a very simple bootstrap carousel without controls. From then on I always looked at the bootstrap framework to see if they provided classes for what I needed before trying to create them myself.
 - Youtube embeds were very difficult to resize, and I ended up having to push them apart manually with CSS right and left properties to get them to have nice spacing on screens above a certain size. Changing padding and margins ended up resizing the videos very strangely. 
 - Social media posts don't look as nice as they could, with each embed having different sizing properies. In the future I will most likely link to the social media page instead of trying to display elements from it on my website. 
 - I could have added a contact-us page as practice even though it wouldn't really make sense for a band like AC/DC. 
-
+- The shop page links to amazon, but clicking the "merch" header still directs the user to the cd page from above instead of the t-shirt page. Also text-decoration="none" doesn't work because I'm not managing to find the correct selctor. Tried with both a and p so the problem must be something else with the code. 
+ 
 ### Mobile First Approach
 
 Each page was tested using chrome dev tools. The device presets used were iPad Pro, iPad, iPhoneX, iPhone 6/7/8 + Plus equivalent. Pixel 2 XL, Pixel 2 and Samsung S5.
@@ -89,7 +91,7 @@ Each page was tested using chrome dev tools. The device presets used were iPad P
 
 ## Deployment 
 
-To deploy my project I pushed my AWS Environment to my Github repository named milestone-project-1-band via the command line. I did this every time I changed something in my code, although to begin with I didn't do it as often as I should have resulting in poor version documentation. I have since learned the importance of pushing all changed to GitHub no matter how insignificant. Please find my [GitHub here](https://github.com/DanielJMaia/milestone-project-1-band).
+To deploy my project I pushed my AWS Environment to my Github repository named milestone-project-1-band via the command line. I did this every time I changed something in my code, although to begin with I didn't do it as often as I should have resulting in poor version documentation. I have since learned the importance of pushing all changed to GitHub no matter how insignificant. Please find my GitHub [here](https://github.com/DanielJMaia/milestone-project-1-band).
 
 ## Credits
 
@@ -101,10 +103,3 @@ To deploy my project I pushed my AWS Environment to my Github repository named m
 
 - Thank you to my tutor, Antonija Simic, for their help guiding me along the right path and sending me several extremely useful links regarding embeds, mobile first approach, padding vs margins and pixels vs rems vs %. These were all areas I was unsure in when beginning my project.
 - Thank you to Neil Kavanagh for sending me emails and making sure I was getting along with the course even when I had to take a significant break due to personal reasons. I greatly appreciated their patience. 
-
-
-PERSONAL NOTES
-TEMPLATE - https://github.com/Code-Institute-Solutions/readme-template
-Adding to GitHub - git push -u origin master
-ACDC live pic link - https://twitter.com/acdc/status/784160595960532992
-videos_wallpaper link - https://www.pinterest.com/pin/119838040054935730/  (img link - https://i.pinimg.com/originals/58/8c/4b/588c4ba75cbd6dd9fe3c5bfafaaccdea.jpg)

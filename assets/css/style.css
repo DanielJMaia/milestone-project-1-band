@@ -336,6 +336,10 @@ audio:active {
     margin: auto;
 }
 
+.price{
+    color: #fafafa;
+    text-decoration: none;
+}
 
 
 
@@ -434,6 +438,15 @@ audio:active {
     }
 
 }
+
+
+@media(min-width: 1250px) {
+    .carouselimg img {
+        padding-right: 50px;
+        padding-top: 100px;
+    }
+}
+
 
 @media(min-width: 1500px) {
     .albumimg {
