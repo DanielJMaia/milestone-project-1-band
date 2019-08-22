@@ -14,8 +14,9 @@ This website is both for fans of the band looking to listen to some music and bo
 - A newcomer wants to watch a music video to their most popular songs. They go on the home page and click the "videos" tab, or scolls down a single section. 
 - A newcomer wants to listen to their music and plays it in the background while reading about the band by playing it in the "music" section.
 - An existing fan wants to book a ticket to go see one of their shows live but isn't sure if they're going to be playing near them. They can check the "schedule" section on the website. 
-- A fan is interested in buying some cd's and want to make sure to support the band by buying them directly instead of going through spotify or amazon, they click the "shop" section. 
-- As a fan I want to see if they have a social media presence. I click the follow tab and am presented with the latest posts and links to their several social media pages.
+- A fan is interested in buying some cd's and merch and want to make sure to support the band by buying them directly instead of going through spotify or amazon, they click the "shop" section. 
+- As a fan I want to see if they have a social media presence. I click the follow tab and am presented with the latest posts and links to their several social media pages. It shows all their social media platforms in one place. 
+
 
 ### Mockups
 
@@ -28,20 +29,20 @@ This website is both for fans of the band looking to listen to some music and bo
 
 - Interesting slideshow as a front page showing pictures of the band playing live. This instantly gives an idea of what they look like, and the energy they create when performing. 
 - Five music videos to give users an idea of the range of music this band creates, while highlighting that they are a rock band that has stood the test of time since some are quite old. 
-- Albums and songs are readily available if the user is very interested in going further in discovering the band's music. 
-- About us section which provides some basic information about the band's history. 
+- Albums and songs are readily available if the user is very interested in going further in discovering the band's music. These link to the bands spotify if the user wants to start listening to them regularly and on the go.
+- About us section which provides some information about the band's history and their journey to stardom. 
 - Tour dates organised as a easy to view table which provides a simple user experience which easy access to the booking page as to avoid confusing and potential scam websites offering fake tickets. 
 - Social media page so that the user can easily follow the band on their preferred platform. 
 
 ### shop.html
 
-- Simple online store for people interested in buying albums and merch. The albums sectiion is the same as on the main page, and the merch is displayed in a bootstrap carousel. 
+- Simple online store for people interested in buying albums and merch. The albums sectiion is the same as on the main page but links to a shop instead of spotify, and the merch is displayed in a bootstrap carousel which links to the amazon page for band merch. 
 
 ## Features to add in the future
 
 - Nice scrolling animation when using the navigation bar instead of jumping to the section. 
 - Similar scrolling when using the navigation button to go back to the very top of the page.
-- More in-depth forms for booking tickets, and additional pages for each album. Pop up notification to confirm tickets have been booked. 
+- More in-depth forms for booking tickets, and a pop up notification to confirm tickets have been booked. 
 - Additional JavaScript to make the website feel more professional such as improved slideshow, animations as the user scrolls through the page.
 - Each album should link to the spotify page for that album when clicked. 
 
@@ -81,10 +82,10 @@ The pages were at the various screen sizes available in Chrome Dev Tools. A html
 
 ### Problems Encountered & Self Reflection
 
-- Initially I used several custom containers and redundant CSS classes which ended up clashing with the bootstrap. As my project grew I ended up removing large amounts of CSS. This was due to not having the correct mobile-first mindset when approaching the project. I have since learnt the importanece of the mobile first approach from the very beginning, but there is most likely still some redundant CSS. 
+- Initially I used several custom containers and redundant CSS classes which ended up clashing with the bootstrap. As my project grew I ended up removing large amounts of CSS. This was due to not having the correct mobile-first mindset when approaching the project. I have since learnt the importance of the mobile first approach from the very beginning, but there is most likely still some redundant CSS. 
 - The carousel at the beginning wasn't working correctly and required some knowledge of JQuery to fix. I instead chose a very simple bootstrap carousel without controls. From then on I always looked at the bootstrap framework to see if they provided classes for what I needed before trying to create them myself.
 - Youtube embeds were very difficult to resize, and I ended up having to push them apart manually with CSS right and left properties to get them to have nice spacing on screens above a certain size. Changing padding and margins ended up resizing the videos very strangely. 
-- Social media posts don't look as nice as they could, with each embed having different sizing properies. In the future I will most likely link to the social media page instead of trying to display elements from it on my website. 
+- Social media posts don't look as nice as they could, with each embed having different sizing properies. In the future I will most likely link to the social media page instead of trying to display elements from it on my website. This would create the need for a footer, which my website doesn't have. 
 - I could have added a contact-us page as practice even though it wouldn't really make sense for a band like AC/DC. 
 - The conscious decision to not include a footer might make the website unprofessional, but I didn't see any additional value brought by including it. The next website I create will be designed with the idea of adding a footer with important information such as copyright information and social media links.
 
@@ -125,4 +126,4 @@ To deploy my project I pushed my AWS Environment to my Github repository named m
 ### Acknowledgements and Thanks
 
 - Thank you to my tutor, Antonija Simic, for their help guiding me along the right path and sending me several extremely useful links regarding embeds, mobile first approach, padding vs margins and pixels vs rems vs %. These were all areas I was unsure in when beginning my project.
-- Thank you to Neil Kavanagh for sending me emails and making sure I was getting along with the course even when I had to take a significant break due to personal reasons. I greatly appreciated their patience. 
+- Thank you to Neil Kavanagh for sending me emails and making sure I was getting along with the course even when I had to take a significant break due to personal reasons. I greatly appreciated their patience and understanding. 
