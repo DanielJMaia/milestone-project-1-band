@@ -337,7 +337,7 @@ audio:active {
 }
 
 .price{
-    color: #fafafa;
+    color: rgba(255, 255, 255, .5);
     text-decoration: none;
 }
 

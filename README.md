@@ -6,6 +6,8 @@ My project is a website for the popular rock bank, AC/DC. The website was create
 
 The website was designed so that both people who are familiar with the band and newcomers find it useful and interesting to browse. The main page that a user first sees shows a slideshow with some iconic moments in the bands history, notably their live shows. Since the website is a single page the user then has the choice to begin scrolling through the website, or they can click a section they're interested in on the navigation bar at the top of the page. If the user decides to scroll through the website they are first presented with 5 mmusic videos. This is very important because it allows someone discovering the band to very easily and quickly discover some of their music and see if they'd be interested in the band. Once they scroll past that section they are shown several of the band's main albums, along with a list of their top songs. This further allows someone to discover their music but also allows someone who is familiar with AC/DC to simply listen to their favourite songs. These keep playing as the user browses the website. Avoding autoplaying music was important to limit ruining the user experience. If the user is interested in the music that they hear they can scroll a little further and read about the band. This is a very short section which is followed by their latest tour dates, with links to buying a ticket to a specific show. Finally, the user is shown several social media posts. A social media presence is important in this day and age and this reassures the user that the band has an active social media presence. 
 
+Placeholder songs were used on the website to avoid havinng to purchase/illegally download the music. 
+
 ## UX
 
 This website is both for fans of the band looking to listen to some music and book tickets, and people who've head about them and are interested in learning about the band and discovering some of their greatest hits. The website also provides links to their social media pages if the user is interested in following them on their platform of choice. 
@@ -17,7 +19,7 @@ This website is both for fans of the band looking to listen to some music and bo
 
 ### Mockups
 
-[Here] (https://github.com/DanielJMaia/milestone-project-1-band/blob/master/assets/Mockups/Starting%20Ideas.png) is the link to the original idea for the look of the website  Done in microsoft paint. Vast improvements needed in the future. 
+[Here](https://github.com/DanielJMaia/milestone-project-1-band/blob/master/assets/Mockups/Starting%20Ideas.png) is the link to the original idea for the look of the website  Done in microsoft paint. Vast improvements needed in the future. 
 
 
 ## Features
@@ -51,11 +53,11 @@ This was used to create the markup.
 
 ### CSS
 
-This was used to style the webpage. [Bootstrap] (https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css) was the mobile-first framework that enabled the website to be responsive using the grid layout.
+This was used to style the webpage. [Bootstrap](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css) was the mobile-first framework that enabled the website to be responsive using the grid layout.
 
 ### Validators
 
-When the website being developed the both the HTML and CSS was validated using the W3 "Jigsaw" [validation] (https://validator.w3.org/) 
+When the website being developed the both the HTML and CSS was validated using the W3 "Jigsaw" [validation](https://validator.w3.org/) 
 
 ## Testing
 
@@ -74,6 +76,7 @@ The pages were at the various screen sizes available in Chrome Dev Tools.
 ### shop.html
 
 - Made sure carousel works correctly.
+- Clicked all the links to ensure that they led to the correct amazon page.
 
 ### Problems Encountered & Self Reflection
 
@@ -82,8 +85,7 @@ The pages were at the various screen sizes available in Chrome Dev Tools.
 - Youtube embeds were very difficult to resize, and I ended up having to push them apart manually with CSS right and left properties to get them to have nice spacing on screens above a certain size. Changing padding and margins ended up resizing the videos very strangely. 
 - Social media posts don't look as nice as they could, with each embed having different sizing properies. In the future I will most likely link to the social media page instead of trying to display elements from it on my website. 
 - I could have added a contact-us page as practice even though it wouldn't really make sense for a band like AC/DC. 
-- The shop page links to amazon, but clicking the "merch" header still directs the user to the cd page from above instead of the t-shirt page. Also text-decoration="none" doesn't work because I'm not managing to find the correct selctor. Tried with both a and p so the problem must be something else with the code. 
- 
+- The conscious decision to not include a footer might make the website unprofessional, but I didn't see any additional value brought by including it. The next website I create will be designed with the idea of adding a footer with important information such as copyright information and social media links.
 ### Mobile First Approach
 
 Each page was tested using chrome dev tools. The device presets used were iPad Pro, iPad, iPhoneX, iPhone 6/7/8 + Plus equivalent. Pixel 2 XL, Pixel 2 and Samsung S5.
@@ -94,6 +96,7 @@ Each page was tested using chrome dev tools. The device presets used were iPad P
 To deploy my project I pushed my AWS Environment to my Github repository named milestone-project-1-band via the command line. I did this every time I changed something in my code, although to begin with I didn't do it as often as I should have resulting in poor version documentation. I have since learned the importance of pushing all changed to GitHub no matter how insignificant. Please find my GitHub [here](https://github.com/DanielJMaia/milestone-project-1-band).
 
 ## Credits
+
 
 ### Content
 
