@@ -97,8 +97,10 @@ To deploy my project I pushed my AWS Environment to my Github repository named m
 
 ## Credits
 
-
 ### Content
+
+- About us section taken from their [Wikipedia Page](https://en.wikipedia.org/wiki/AC/DC)
+- 
 
 ### Media Locations
 
